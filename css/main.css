@@ -1,1 +1,59 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  padding: 6em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+}
+
+section h1 {
+  font-size: 5em;
+}
+
+section p {
+  width: 50%;
+  opacity: 0.8;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+#one {
+  background: #1da767;
+}
+
+#two {
+  background: #257bb4;
+}
+
+#three {
+  background: #6f26b3;
+}
+
+#four {
+  background: #8ead27;
+}
+
+[data-scroll] {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+[data-scroll="in"] {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+[data-scroll="out"] {
+  opacity: 0;
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+}
+/*# sourceMappingURL=main.css.map */
